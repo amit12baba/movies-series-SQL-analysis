@@ -7,4 +7,4 @@ To achieve the project's goals, a series of SQL queries were written to extract 
 1. [Install PostgreSQL](https://www.postgresql.org/download/).
 2. Go to Kaggle website and search for: Latest Netflix data with 26+ joined attributes, downloade the csv to your computer.
 3. Open postgrsql, tap on "new table" and downloade the netflix data.
-4. Go to Github, copy the queries and run them in postgresql.
+4. Run the queries in your postgresql client of choice.
