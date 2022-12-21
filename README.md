@@ -6,6 +6,6 @@ To achieve the project's goals, a series of SQL queries were written to extract 
 # How to install
 1. [Install PostgreSQL](https://www.postgresql.org/download/).
 2. load CSV files from repository to PostgreSQL.
-3. Go to [CSV to SQL] (https://convertcsv.com/csv-to-sql.htm), load the CSV file.
+3. Go to [CSV to SQL](https://convertcsv.com/csv-to-sql.htm), load the CSV file.
 4. In PostgreSQL load the CSV file from the website.
 5. Run the queries in your postgresql client of choice.
