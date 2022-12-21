@@ -5,6 +5,7 @@ The purpose of this SQL project was to analyze movies and series from netflix da
 To achieve the project's goals, a series of SQL queries were written to extract and analyze relevant data. These queries included aggregations to identify the most popular movies or series, as well as joins.
 # How to install
 1. [Install PostgreSQL](https://www.postgresql.org/download/).
-2. Go to Kaggle website and search for: Latest Netflix data with 26+ joined attributes, downloade the csv to your computer.
-3. Open postgrsql, tap on "new table" and downloade the netflix data.
-4. Run the queries in your postgresql client of choice.
+2. load CSV files from repository to PostgreSQL.
+3. Go to [CSV to SQL] (https://www.convertcsv.com/csv-to-sql.htm), load the CSV file.
+4. In PostgreSQL load the CSV file from the website.
+5. Run the queries in your postgresql client of choice.
