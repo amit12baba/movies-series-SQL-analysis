@@ -1,3 +1,4 @@
+-- Which are the actors that have played more movies?
 SELECT
 	actors,
 	count(series_or_movie) AS movies
@@ -6,7 +7,7 @@ FROM (
 		unnest(string_to_array(actors, ', ')) AS actors,
 		series_or_movie
 	FROM
-		movies_netflix_kaggle
+		movies_and_series
 	WHERE
 		series_or_movie = 'Movie') AS movies_by_actors
 GROUP BY

@@ -32,4 +32,4 @@ CREATE TABLE movies_and_series (
 );
 
 -- add data from CSV file, without the header row
-COPY movies_and_series(title, genre, tags, languages, series_or_movie, hidden_gem_score, country_availability, runtime, director, writer, actors, view_rating, imdb_score, rotten_tomatoes_score, metacritic_score, awards_received, awards_nominated_for, boxoffice, release_date, netflix_release_date, production_house, netflix_link, imdb_link, summary, imdb_votes, image, poster, tmdb_trailer, trailer_site) FROM '/tmp/netflix-rotten-tomatoes-metacritic-imdb.csv' CSV HEADER;
+COPY movies_and_series(title, genre, tags, languages, series_or_movie, hidden_gem_score, country_availability, runtime, director, writer, actors, view_rating, imdb_score, rotten_tomatoes_score, metacritic_score, awards_received, awards_nominated_for, boxoffice, release_date, netflix_release_date, production_house, netflix_link, imdb_link, summary, imdb_votes, image, poster, tmdb_trailer, trailer_site) FROM '/tmp/data/netflix-rotten-tomatoes-metacritic-imdb.csv' CSV HEADER;

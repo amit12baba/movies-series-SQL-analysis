@@ -1,3 +1,4 @@
+-- Top imdb score series in Israel with awared nominated and recieved
 SELECT
 	*
 FROM (
@@ -5,11 +6,10 @@ FROM (
 		title,
 		awards_nominated_for,
 		awards_received,
-		imdb_votes,
 		imdb_score,
 		unnest(string_to_array(country_availability, ',')) AS country_availability
 	FROM
-		movies_netflix_kaggle
+		movies_and_series
 	WHERE
 		awards_nominated_for IS NOT NULL
 		AND awards_received IS NOT NULL

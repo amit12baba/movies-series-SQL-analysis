@@ -1,3 +1,4 @@
+-- Which are the most popular genre in movies?
 SELECT
 	count(title) AS movies,
 	genre,
@@ -8,7 +9,7 @@ FROM (
 		unnest(string_to_array(genre, ', ')) genre,
 		series_or_movie
 	FROM
-		movies_netflix_kaggle
+		movies_and_series
 	WHERE
 		series_or_movie = 'Movie') AS genre_by_movies
 GROUP BY
