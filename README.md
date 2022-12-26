@@ -7,5 +7,5 @@ To achieve the project's goals, a series of SQL queries were written to extract 
 1. [Install PostgreSQL](https://www.postgresql.org/download/).
 2. Clone the repository.
 3. Copy the [data folder](data) into /tmp.
-4. Run both the [load_data netflix query](data/load_data.sql) and [load data disney query](data/load_data_disney.sql) in PostgreSQL. 
+4. Run both the [load_data_netflix.sql query](data/load_data.sql) and [load_data_disney.sql query](data/load_data_disney.sql) in PostgreSQL. 
 5. Run the [queries](queries) in your postgresql client of choice as you wish.
