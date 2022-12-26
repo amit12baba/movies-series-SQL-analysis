@@ -1,4 +1,4 @@
--- how many movies apperes both in netflix and disney by the same director
+-- how many movies show in netflix and how many movies show in disney by the same director?
 WITH netflix AS (
 	SELECT
 		netflix_director,
